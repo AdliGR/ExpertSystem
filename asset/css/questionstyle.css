@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/asset/font/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: LT;
+    src: url(/asset/font/LT-Highlight.otf);
+}
+body{
+    background-image: url(/asset/image/Background3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Montserrat;
+}
+
+.question{
+    color : black;
+}
+
+.Title{
+    color : black;
+    padding-top: 110px;
+    font-size: 3rem;
+}
+
+.kotak{
+    background-color: rgba(225, 217, 173, 0.61);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.btn{
+    background-color: #c9b3ab !important;
+}
+.btn:hover{
+    background-color: white !important;
+}
